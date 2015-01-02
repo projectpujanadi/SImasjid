@@ -1,0 +1,40 @@
+<div class="sidebar box">
+    <ul class="primary">
+        <li><a class="atas has-more" href="">Masjid</a>
+            <ul class="ul-secondary">
+                <li><a href="ubahDataMasjid.html">Ubah Data Masjid</a></li>
+            </ul>
+        </li>
+        <li><a class="has-more" href="">Berita Masjid</a>
+            <ul class="ul-secondary">
+                <li><a href="tambahBeritaMasjid.html">Tambah Berita Masjid</a></li>
+                <li><a href="aturBeritaMasjid.html">Atur Berita Masjid</a></li>
+            </ul>
+        </li>
+        <li><a class="has-more" href="">Video Masjid</a>
+            <ul class="ul-secondary">
+                <li><a href="tambahVideoMasjid.html">Tambah Video Masjid</a></li>
+                <li><a href="aturVideoMasjid.html">Atur Video Masjid</a></li>
+            </ul>
+        </li>
+        <li><a class="has-more" href="">Member</a>
+            <ul class="ul-secondary">
+                <li><a href="tambahMember.html">Tambah Member</a></li>
+                <li><a href="aturMember.html">Atur Member</a></li>
+                <li><a href="">Pengumuman</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<script>
+    $(document).ready(function() {
+
+        //admin umum sidebar
+        $('.sidebar').find('.has-more').on('click', function(e) {
+            $(this).parent().find('.ul-secondary').slideToggle();
+            $(this).parent().siblings().find('.ul-secondary').slideUp();
+            e.preventDefault();
+        });
+    });
+</script>

@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 23, 2014, 5:23:51 PM
+    Author     : i08023
+*/
+
+.content {
+    margin-top: 0;
+    height: 610px;
+}
+.col {
+    height: inherit;
+}
+.kotak-judul{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 20px;
+    border-bottom: 1px solid #b6bcc1; 
+}
+
+.check{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 9px;
+}
+.hapus{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 9px;
+}
+.trash{
+    height:20px;
+    float: right;
+}
+.hapus-text{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 3px;
+    padding-left: 5px;
+}
+.slider{
+    height:470px;
+}
+.message{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 20px;
+    border-bottom: 1px solid #b6bcc1;
+    height: 46px;
+}
+.checkbox{
+    height: inherit;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 16px;
+}
+.to{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 15px;
+    height: inherit;
+}
+.jarak{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 15px;
+    height: inherit;
+}
+.halaman{
+    height:40px;
+}
+.button{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+}
+.button .box.span-1 img {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 30px;
+}
+.panah-kanan{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 53px;
+}
+.panah:hover,.panah:focus {
+    cursor:pointer;
+    transition:0.25s;
+    transform: scale(1.15);
+    transition: 0.2s;
+}

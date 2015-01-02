@@ -1,0 +1,281 @@
+/* 
+    Document   : index
+    Created on : Aug 30, 2014, 12:16:12 PM
+    Author     : i08023
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.content {
+    margin-top: 0;
+}
+.col {
+    height: inherit;
+}
+
+
+
+/* Headline */
+.slideshow{
+    background: url('../../img/Headline/50.jpg');
+    height:380px;
+}
+.slideshow .box.span-1-5, .slideshow .box.span-9-5, .slider-content {
+    height: inherit;
+    text-align: center;
+    color: white;
+}
+.slideshow .box.span-1-5{
+    padding-top: 150px;
+}
+
+.slideshow .box.span-1-5 img:first-child, .slideshow .box.span-1-5 img:last-child{
+    height:50px;
+}
+
+.slideshow .box.span-1-5 img:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.slider-content .box.span-6 {
+    height: inherit;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+}
+.slider-content .box.span-6:first-child{
+    padding-top: 145px;
+}
+
+.slider-content .box.span-6:last-child img {
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px black;
+    margin-top: 80px;
+}
+
+
+
+/* Berita */
+.berita-text{
+    text-align: center;
+    padding-top: 30px;
+    height:80px;
+}
+.berita-text img{
+    height: 50px;
+}
+
+.berita .box.span-4{
+    text-align: center;
+    height: 200px;
+}
+.gambar{
+    height: 125px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 5px 0px 10px 0px;
+}
+.gambar:hover,.gambar:focus{
+    cursor:pointer;
+    transition:0.25s;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+.berita-img{
+    height: 115px;
+    width: 115px;
+    box-shadow: 0px 0px 5px black;
+    border-radius:100% 100% 100% 100%;
+    
+}
+.judulBerita{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    height: 50px;
+}
+.tanggal{
+    color:#6C7A89;
+    height:25px;
+    border-bottom:1px solid #b6bcc1;
+}
+.masjid{
+    color:#6C7A89;
+    height:25px;
+}
+
+
+
+/* Bentuk */
+.lengkung{
+    height: 50px;
+    background-color: #333333;
+}
+.lengkung-tengah{
+    background-color: #333333;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-bottom: 60px;
+}
+.bentuk-tengah{
+    height: 50px;
+    background-color: white;
+}
+.bentuk-atas-kiri{
+    height: 50px;
+    border-radius:0 0 0% 70%;
+    background-color: white;
+}
+.bentuk-atas-kanan{
+    height: 50px;
+    border-radius:0 0 70% 0%;
+    background-color: white;
+}
+.bentuk-bawah-kiri{
+    height: 50px;
+    border-radius:70% 0% 0% 0%;
+    background-color: white;
+}
+.bentuk-bawah-kanan{
+    height: 50px;
+    border-radius:0 70% 0% 0%;
+    background-color: white;
+}
+
+
+
+/* Video */
+.video-text{
+    text-align: center;
+    padding-top: 30px;
+    height:80px;
+}
+.video-text img{
+    height: 55px;
+}
+.video .box.span-3{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 30px 0px 30px;
+}
+.video-isi{
+    height:180px;
+    border:4px solid whitesmoke;
+    border-radius: 5px;
+    background-color: white; 
+}
+.video-isi img{
+    width: 100%;
+}
+.video-isi:hover,.video-isi:focus {
+    background-color: #1ABC9C;
+    border-color:#1ABC9C;
+    cursor:pointer;
+    transition:0.25s;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+.video-isi:hover .judulvideo {
+    color: white;
+}
+.video-isi:hover .keterangan-video {
+    color: #bbbbbb;
+}
+.judulvideo{
+    height: 40px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 5px 0px 5px;
+}
+.keterangan-video{
+    height: 23px;
+    color:#6C7A89;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 5px 0px 5px;
+}
+
+
+
+/* Cari */
+.cari-text{
+    text-align: center;
+    height:80px;
+}
+.cari-text img{
+    height: 60px;
+}
+.peta-img{
+    border-right: 1px solid #b6bcc1;
+}
+.peta-img img{
+    height: 300px;
+}
+.cari-judul{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 20px 0px 5px 0px;
+}
+.cari-isi{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 10px;
+    text-align: justify;
+}
+.form-control-cari {
+    border: 2px solid #333333;
+    color: #333333;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 6px 8px 6px 8px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    transition: 0.25s;
+    width:265px;
+    height:30px;
+    float:left;
+    background-color: white;
+    font-size: 12px;
+}
+.form-control-search{
+    border-top: 2px solid #333333;
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    transition: border 0.25s, background-color 0.25s;
+    height:30px;
+    background-color: #333333;
+    float:left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 8px;
+}
+.form-control-search:hover,.form-control-search:focus {
+    background-color: #1ABC9C;
+    border-color:#1ABC9C;
+    cursor:pointer;
+    transition:0.25s;
+}
+.field:focus {
+    border-color: #1ABC9C;
+}
+.jarak{
+    height:80px;
+}

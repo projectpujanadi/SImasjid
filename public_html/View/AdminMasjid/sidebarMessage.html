@@ -1,0 +1,25 @@
+<div class="sidebar box">
+    <ul class="primary">
+        <li><a class="atas" href="tulis.html">Tulis</a>
+
+        </li>
+        <li><a class="" href="inbox.html">Inbox</a>
+
+        </li>
+        <li><a class="" href="sent.html">Sent</a>
+
+        </li>
+    </ul>
+</div>
+
+<script>
+    $(document).ready(function () {
+
+        //admin umum sidebar
+        $('.sidebar').find('.has-more').on('click', function (e) {
+            $(this).parent().find('.ul-secondary').slideToggle();
+            $(this).parent().siblings().find('.ul-secondary').slideUp();
+            e.preventDefault();
+        });
+    });
+</script>

@@ -1,0 +1,96 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 15, 2014, 8:35:29 AM
+    Author     : i08023
+*/
+.content {
+    margin-top: 0;
+}
+.col {
+    height: inherit;
+}
+
+
+/*Video*/
+.video{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.video .box.span-3{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 30px 0px 30px;
+}
+.video-isi{
+    height:180px;
+    border:4px solid #333333;
+    border-radius: 5px;
+    background-color: #333333; 
+}
+.video-isi img{
+    width: 100%;
+}
+.video-isi:hover,.video-isi:focus {
+    background-color: #1ABC9C;
+    border-color:#1ABC9C;
+    cursor:pointer;
+    transition:0.25s;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+.video-isi:hover .judulvideo {
+    color: white;
+}
+.video-isi:hover .keterangan-video {
+    color: #b6bcc1;
+}
+.judulvideo{
+    height: 40px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 5px 0px 5px;
+    color: white;
+}
+.keterangan-video{
+    height: 23px;
+    color:#b6bcc1;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 5px 0px 5px;
+}
+
+
+/*Button*/
+.button{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-bottom: 20px;
+    padding-top: 8px;
+}
+.button .box.span-1 img {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 35px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    height: 44px;
+}
+
+.panah:hover,.panah:focus {
+    cursor:pointer;
+    transition:0.25s;
+    transform: scale(1.15);
+    transition: 0.2s;
+}
